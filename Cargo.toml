@@ -1,0 +1,12 @@
+[package]
+name = "safetystockcalculator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.31.1"
+egui = "0.31.1"
+egui_extras = "0.31.1"
+image = "0.25.6"
+odbc-api = "13.1.0"
+statrs = "0.18.0"
