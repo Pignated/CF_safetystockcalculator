@@ -8,7 +8,6 @@ use std::{error::Error};
 
 fn main()  -> Result<(),  Box<dyn Error>> {
     {
-
     // Uncomment the line below to test a query
 let options = eframe::NativeOptions {
         viewport: egui::ViewportBuilder::default()
