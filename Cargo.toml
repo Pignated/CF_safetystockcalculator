@@ -1,9 +1,11 @@
 [package]
 name = "safetystockcalculator"
-version = "0.1.0"
+version = "0.2.1"
 edition = "2024"
+build= "build.rs"
 
 [dependencies]
+dotenv = "0.15.0"
 eframe = "0.31.1"
 egui = "0.31.1"
 egui_extras = "0.31.1"
